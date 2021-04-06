@@ -1,0 +1,27 @@
+{
+  "strict": {
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
+    "lint:fix": "eslint --ext .js,.jsx,.ts,.tsx --fix ."
+  },
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "src/*": ["src/*"]
+    },
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}
