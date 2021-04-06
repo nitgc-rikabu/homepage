@@ -5,12 +5,13 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>群馬高専理科部</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        <h1>Hello!!</h1>
+        <h1>群馬高専理科部</h1>
+        <p>絶賛開発中！！</p>
       </main>
     </div>
   );
